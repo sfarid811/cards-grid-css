@@ -25,7 +25,17 @@ img {
     object-fit: cover;
     cursor: pointer;
 }
-
+figcaption {
+    position: relative;
+    bottom: 0;
+    background-color:  #FFC300;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+   
+}
 .card1, .card2, .card3 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
