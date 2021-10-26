@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav class="wrapper">
+          
+            <!-- <h1>Blogging</h1> -->
+            <img src="https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/logo-whole-c555aa707602e714ec956ac96e9db366.svg" alt="">
+            
+            <a href="#">Home</a>
+            <a href="#">Formations</a>
+            <a href="#">Articles</a>
+            
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <div class="articles">
+            <div class="article">
+                <div class="section-left">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/18/19/01/paris-1836415_1280.jpg" alt="">
+                </div>
+                <div class="section-right">
+                    <span class="date">Juillet, 24, 2020</span>
+                    <h2 class="title">Paris - La ville des lumières, pourquoi ?</h2>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cupiditate repellendus dolor necessitatibus. Modi, quos! Explicabo voluptates vero ullam quis ipsum impedit illum numquam cum quaerat animi? Ad, fugiat neque.</p>
+                    <span class="author">Julie Lablonde</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="section-left">
+                    <img src="https://cdn.pixabay.com/photo/2016/01/19/17/15/night-1149601_1280.jpg" alt="">
+                </div>
+                <div class="section-right">
+                    <span class="date">Juillet, 24, 2020</span>
+                    <h2 class="title">Paris - La ville des lumières, pourquoi ?</h2>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cupiditate repellendus dolor necessitatibus. Modi, quos! Explicabo voluptates vero ullam quis ipsum impedit illum numquam cum quaerat animi? Ad, fugiat neque.</p>
+                    <span class="author">Julie Lablonde</span>
+                </div>
+            </div>
+            <div class="article">
+                <div class="section-left">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/09/16/15/calanque-1966920_1280.jpg" alt="">
+                </div>
+                <div class="section-right">
+                    <span class="date">Juillet, 24, 2020</span>
+                    <h2 class="title">Paris - La ville des lumières, pourquoi ?</h2>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cupiditate repellendus dolor necessitatibus. Modi, quos! Explicabo voluptates vero ullam quis ipsum impedit illum numquam cum quaerat animi? Ad, fugiat neque.</p>
+                    <span class="author">Julie Lablonde</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="footer">
+        <footer class="wrapper">
+            <h2>&copy; 2021, by Julie Lablonde</h2>
+    
+            <div class="icons">
+                <span><i class="fab fa-facebook"></i></span>
+                <span><i class="fab fa-twitter"></i></span>
+                <span><i class="fab fa-instagram"></i></span>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const id = Math.floor(Math.random() * 100000);
+        const footer = document.querySelector('footer');
+        const my_footer = document.createAttribute('data-id');
+        my_footer.value = id;
+        footer.setAttributeNode(my_footer);
+    </script>
+</body>
+</html>
